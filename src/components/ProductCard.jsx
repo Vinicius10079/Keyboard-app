@@ -32,6 +32,8 @@ function ProductCard({ id, name, image, link, onLinkChange }) {
       <button className="edit-path-btn" onClick={handleEditPath} title={link}>
         Alterar caminho
       </button>
+      <br/>
+      -
     </div>
   );
 }
